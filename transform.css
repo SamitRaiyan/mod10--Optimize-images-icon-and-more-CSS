@@ -1,0 +1,21 @@
+.container,.inner {
+    margin: 0px 40px;
+    width: 200px;
+    height: 200px;
+
+}
+.container{
+    border: 2px solid steelblue;
+    background: aqua;
+}
+.inner{
+    border: 2px dotted tomato;
+    background-color: palegoldenrod;
+    /* transform: scale(.5,.9);
+    transform: rotate(-45deg); */
+    /* transform: scale(.5,.6) rotate(45deg) translateX(-50px) translateY(-50px) translateZ(20px); */
+    /* display: none; */
+}
+.inner:hover{
+    transform: scale(.5,.6) rotate(45deg) translateX(-50px) translateY(-50px) translateZ(20px);
+}
